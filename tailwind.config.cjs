@@ -5,21 +5,16 @@ module.exports = {
     colors: {
       white: "#ffffff",
       black: "#000000",
-      purple: {
-        400: "#5D5FEF",
-      },
-      gray: {
-        100: "#E2E3E5",
-        400: "#C4C4C4",
+      green: {
+        400: "#00C368",
       },
       slate: {
-        100: "#F3F4F6",
-        400: "#4D5562",
-        500: "#6B7280",
-        800: "#111827",
+        100: "#E7EBF0",
+        200: "#A6ABBD",
+        400: "#2E3A59",
       },
       blue: {
-        100: "#F0F9FF",
+        100: "#F8FBFF",
       },
     },
     extend: {
@@ -35,9 +30,6 @@ module.exports = {
         42: "10.5rem",
         90: "22.5rem",
         134: "33.5rem",
-      },
-      boxShadow: {
-        md: "0px 2px 4px rgba(0, 0, 0, 0.06), 0px 4px 6px rgba(0, 0, 0, 0.1)",
       },
     },
   },
