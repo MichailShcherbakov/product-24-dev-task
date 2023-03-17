@@ -16,6 +16,9 @@ module.exports = {
       blue: {
         100: "#F8FBFF",
       },
+      gray: {
+        100: "#F5F5F5",
+      },
     },
     extend: {
       spacing: {
@@ -24,6 +27,7 @@ module.exports = {
         2.5: "0.625rem",
         4.5: "1.125rem",
         5.5: "1.375rem",
+        6.5: "1.625rem",
         7.5: "1.875rem",
         9.5: "2.375rem",
         11.5: "2.875rem",
@@ -41,6 +45,7 @@ module.exports = {
       },
       boxShadow: {
         md: "0px 8px 16px rgba(0, 195, 104, 0.4)",
+        base: "0px 8px 15px rgba(0, 0, 0, 0.5)",
       },
     },
   },
