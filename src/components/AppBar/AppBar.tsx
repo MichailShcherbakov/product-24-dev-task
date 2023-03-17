@@ -10,7 +10,7 @@ const NAVBAR_ITEMS: NavBarItem[] = [
 
 export function AppBar() {
   return (
-    <div className="flex flex-row items-center justify-between w-full h-40 px-21">
+    <div className="flex flex-row items-center justify-between w-full h-40 px-21 overflow-hidden">
       <div className="flex flex-row items-center">
         <LogoIcon className="mr-16" />
         <NavBar items={NAVBAR_ITEMS} />

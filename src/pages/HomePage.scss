@@ -1,0 +1,28 @@
+.home-page {
+  &__overview-panel {
+    display: flex;
+    flex-direction: column;
+
+    // width: 100%;
+    height: 947px;
+
+    overflow: hidden;
+
+    align-items: center;
+
+    background: linear-gradient(
+      111.04deg,
+      #e2e2e2 0.39%,
+      rgba(255, 255, 255, 0) 86.46%
+    );
+  }
+
+  &__main-image {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 436.34px;
+    height: 230px;
+  }
+}
