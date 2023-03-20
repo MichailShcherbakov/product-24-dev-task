@@ -1,0 +1,19 @@
+.ui-accordion {
+  &__content {
+    height: auto;
+    min-height: 0px;
+
+    -webkit-transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  }
+
+  &--collapse {
+    height: 0;
+    visibility: hidden;
+  }
+
+  &--expand {
+    height: auto;
+    visibility: visible;
+  }
+}

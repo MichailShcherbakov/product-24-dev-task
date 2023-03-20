@@ -6,7 +6,7 @@ export interface FeedBackProps extends React.HTMLAttributes<HTMLDivElement> {}
 
 export function FeedBackSection(props: FeedBackProps) {
   return (
-    <div className="flex flex-col bg-gray-100 px-16 py-20">
+    <div {...props} className="flex flex-col flex-1 bg-gray-100 px-16 py-20">
       <div className="flex flex-col items-center mb-12">
         <Divider className="mb-6" />
         <UiTypography is="h2" variant="h1" className="text-center">

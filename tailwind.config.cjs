@@ -18,6 +18,7 @@ module.exports = {
       },
       gray: {
         100: "#F5F5F5",
+        200: "#E7EBF0",
       },
     },
     extend: {
@@ -32,6 +33,7 @@ module.exports = {
         9.5: "2.375rem",
         11.5: "2.875rem",
         13: "3.25rem",
+        15.5: "3.875rem",
         21: "5.25rem",
         38: "9.5rem",
         42: "10.5rem",

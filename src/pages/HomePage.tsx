@@ -2,6 +2,7 @@ import { AppBar } from "~/components/AppBar";
 import { CategoryCarousel } from "~/components/CategoryCarousel";
 import { CATEGORIES } from "~/components/CategoryCarousel/categories";
 import { Divider } from "~/components/Divider";
+import { BlitzListSection } from "~/components/sections/BlitzList";
 import { FeedBackSection } from "~/components/sections/FeedBack";
 import { UiTypography } from "~/ui-kit/Typography";
 import "./HomePage.scss";
@@ -32,7 +33,7 @@ export default function HomePage() {
       </div>
       <div className="flex flex-row">
         <FeedBackSection />
-        <FeedBackSection />
+        <BlitzListSection />
       </div>
     </div>
   );
