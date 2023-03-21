@@ -47,10 +47,13 @@ export function BlitzListSection(props: BlitzListSectionProps) {
   }, []);
 
   return (
-    <div {...props} className="flex flex-col flex-1 bg-blue-100 px-16 py-20">
+    <div
+      {...props}
+      className="flex flex-col flex-1 bg-blue-100 py-5 px-3.5 sm:py-10 sm:px-6 md:py-20 md:px-16"
+    >
       <div className="flex flex-col items-center mb-12">
         <Divider className="mb-6" />
-        <UiTypography is="h2" variant="h1" className="text-center mb-5.5">
+        <UiTypography is="h2" variant="h2" className="text-center mb-5.5">
           Lorem ipsum, dolor sit <br />
           adipisicing elit.
         </UiTypography>

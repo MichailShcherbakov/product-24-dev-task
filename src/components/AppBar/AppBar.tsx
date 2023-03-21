@@ -11,11 +11,14 @@ const NAVBAR_ITEMS: NavBarItem[] = [
 export function AppBar() {
   return (
     <div className="flex flex-row items-center justify-between w-full h-40 px-21 overflow-hidden">
-      <div className="flex flex-row items-center">
-        <LogoIcon className="mr-16" />
-        <NavBar items={NAVBAR_ITEMS} />
+      <div className="flex flex-row items-center justify-center w-full xl:justify-start xl:mr-16 xl:w-auto">
+        <LogoIcon />
+        <NavBar
+          items={NAVBAR_ITEMS}
+          className="flex-row items-center hidden xl:flex"
+        />
       </div>
-      <div className="flex flex-row items-center">
+      <div className="flex-row items-center hidden xl:flex">
         <UiButton>Button</UiButton>
       </div>
     </div>

@@ -43,12 +43,12 @@ function _UiAccordion({
         tabIndex={0}
       >
         <div className="flex flex-row items-center">
-          <picture className="flex flex-row items-center justify-center w-10 h-10 mr-6 rounded-full bg-gray-200">
+          <picture className="flex-row items-center justify-center w-10 h-10 mr-6 rounded-full bg-gray-200 hidden sm:flex">
             {icon}
           </picture>
           <UiTypography
             variant="body2"
-            className={clsx({
+            className={clsx("mr-3", {
               "!text-green-400": isExpanded,
             })}
           >
@@ -72,7 +72,7 @@ function _UiAccordion({
           "ui-accordion--collapse": !isExpanded,
         })}
       >
-        <div className="ml-16 mb-4">
+        <div className="ml-0 mb-4 sm:ml-16">
           <UiTypography variant="body1">{children}</UiTypography>
         </div>
       </div>
