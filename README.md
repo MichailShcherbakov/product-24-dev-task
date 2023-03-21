@@ -4,7 +4,7 @@ Simple landing website
 
 ## Preview
 
-[Just look it](https://simple-notes-app-dev-task.netlify.app/)
+[Just look it](https://product-24-dev-task.netlify.app/)
 
 <img alt src="https://github.com/MichailShcherbakov/product-24-dev-task/blob/master/screenshots/main.png?raw=true" />
 
