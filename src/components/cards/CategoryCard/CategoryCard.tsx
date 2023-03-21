@@ -21,7 +21,9 @@ export function CategoryCard({
         className,
       )}
     >
-      <picture className="mb-5.5">{icon}</picture>
+      <picture className="mb-5.5 text-slate-400 hover:text-green-400">
+        {icon}
+      </picture>
       <UiTypography
         is="span"
         variant="body1"

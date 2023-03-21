@@ -11,7 +11,7 @@
     "lint:check": "eslint \"src/**/*.ts\"",
     "fmt": "prettier . --write",
     "fmt:check": "prettier \"src/**/*.ts\" --check",
-    "prepare": "yarn fmt && yarn lint",
+    "fmt-lint": "yarn fmt && yarn lint",
     "test": "vitest",
     "coverage": "vitest run --coverage"
   },

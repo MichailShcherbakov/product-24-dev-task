@@ -33,7 +33,7 @@ export const FEEDBACK_CARD_VARIANTS: Record<
     main: "relative flex-col px-4 pt-20 pb-4 rounded-4xl shadow-md md:shadow-none md:flex-row md:p-4",
     avatar:
       "absolute top-0 -translate-y-1/2 w-24 h-24 md:w-46 md:h-46 md:relative md:translate-y-0",
-    text: "text-center md:text-left",
+    text: "text-center md:text-left text-shadow",
   },
 };
 
@@ -78,7 +78,7 @@ export function FeedBackCard({
           is="span"
           variant="body1"
           className={clsx(
-            "w-full h-fit text-left text-ellipsis overflow-hidden mb-5 ",
+            "w-full h-fit text-left text-ellipsis overflow-hidden mb-5",
             FEEDBACK_CARD_VARIANTS[variant].text,
           )}
         >

@@ -54,11 +54,15 @@ module.exports = {
         "4xl": ["40px", "46.88px"],
       },
       boxShadow: {
+        sm: "0px 4px 4px rgba(0, 0, 0, 0.25)",
         md: "0px 8px 16px rgba(0, 195, 104, 0.4)",
         base: "0px 8px 15px rgba(0, 0, 0, 0.5)",
       },
       borderRadius: {
         "4xl": "2rem",
+      },
+      backgroundImage: {
+        groups: "url('/illustrations/background.png')",
       },
     },
   },

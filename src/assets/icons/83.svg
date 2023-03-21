@@ -1,7 +1,7 @@
 <svg width="81" height="93" viewBox="0 0 81 93" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g filter="url(#filter0_d_1_275)">
-<circle cx="31.69" cy="72.4308" r="7" transform="rotate(-15 31.69 72.4308)" stroke="#2E3A59" stroke-width="2"/>
-<rect x="30.9965" y="31.2056" width="30" height="30" transform="rotate(-15 30.9965 31.2056)" stroke="#2E3A59" stroke-width="2"/>
+<circle cx="31.69" cy="72.4308" r="7" transform="rotate(-15 31.69 72.4308)" stroke="currentColor" stroke-width="2"/>
+<rect x="30.9965" y="31.2056" width="30" height="30" transform="rotate(-15 30.9965 31.2056)" stroke="currentColor" stroke-width="2"/>
 <g filter="url(#filter1_d_1_275)">
 <rect x="43.1053" y="30.0316" width="6" height="8" transform="rotate(-15 43.1053 30.0316)" stroke="#00C368" stroke-width="2"/>
 </g>
